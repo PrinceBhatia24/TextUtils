@@ -5,6 +5,11 @@ import TextForm from "./Components/TextForm";
 import About from "./Components/About";
 import { useState } from "react";
 import Alert from "./Components/Alert";
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
 
 function App() {
   const [mode, setMode] = useState("light");
